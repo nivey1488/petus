@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница - Petus Electronic</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body class="page-loaded">
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Petus Electronic">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <h1>Наши продукты:</h1>
+        <section class="product-cards">
+            <!-- Карточка товара -->
+            <div class="product-card" onclick="window.location.href='petusX1.html'">
+                <img src="petusX1.png" alt="Petus Nova X1" class="product-image">
+                <h2 class="product-name">Petus Nova X1</h2>
+                <p class="price">от 17999 рублей.</p>
+            </div>
+            <div class="product-card" onclick="window.location.href='petusHypersense.html'">
+                <img src="petusHypersense.png" alt="Продукт 2" class="product-image">
+                <h2 class="product-name">Petus HyperSense A1</h2>
+                <p class="price">от 21999 рублей.</p>
+            </div>
+            <div class="product-card" onclick="window.location.href='Petusomni.html'">
+                <img src="Petusomni.png" alt="Продукт 3" class="product-image">
+                <h2 class="product-name">Petus Omni A16</h2>
+                <p class="price">от 51999 руб.</p>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Контакты: <a href="mailto:rusvadrusin@gmail.com">	</a></p>
+        <p>&copy; 2024 Petus Electronic</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
