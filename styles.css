@@ -183,5 +183,14 @@ footer {
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
+#footer {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+#footer.hidden {
+  transform: translateY(100%); 
+  opacity: 0; 
+}
+
     width: 100%;
 }
